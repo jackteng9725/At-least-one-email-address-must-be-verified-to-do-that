@@ -1,0 +1,1 @@
+"use strict";var _cliSharedUtils=require("@mo-demo/cli-shared-utils");(0,_cliSharedUtils.log)("cli/index.js \u6770\u514B");

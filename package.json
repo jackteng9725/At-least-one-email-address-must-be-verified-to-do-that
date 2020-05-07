@@ -2,8 +2,13 @@
   "name": "root",
   "private": true,
   "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
+    "babel-preset-minify": "^0.5.1",
     "commitizen": "^4.1.2",
     "cz-lerna-changelog": "^2.0.2",
     "husky": "^4.2.5",
@@ -12,7 +17,11 @@
     "standard": "^14.3.3"
   },
   "scripts": {
-    "c": "git-cz"
+    "c": "git-cz",
+    "i": "lerna bootstrap",
+    "u": "lerna clean",
+    "p": "npm run b && lerna publish",
+    "b": "lerna exec -- babel src -d dist --config-file ../../babel.config.js"
   },
   "config": {
     "commitizen": {

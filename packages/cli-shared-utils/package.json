@@ -5,16 +5,16 @@
   "author": "jack.t <jack.t@tc-gaming.com>",
   "homepage": "https://github.com/jackteng9725/lerna-repo#readme",
   "license": "ISC",
-  "main": "lib/cli-shared-utils.js",
+  "main": "index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "publishConfig": {
-    "registry": "http://npm.wlft-team.com"
+    "registry": "https://www.npmjs.com/org/lerna-repo"
   },
   "repository": {
     "type": "git",
@@ -30,5 +30,5 @@
     "chalk": "^4.0.0",
     "semver": "^7.3.2"
   },
-  "gitHead": "db9f08234af140f3813892fbd77de2eb28dae25c"
+  "gitHead": "ea867a4f3287a817d7210dfa9e926f7c0edb13b3"
 }
