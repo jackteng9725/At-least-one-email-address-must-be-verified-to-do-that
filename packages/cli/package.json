@@ -1,6 +1,6 @@
 {
   "name": "@mo-demo/cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "> TODO: description",
   "author": "jack.t <jack.t@tc-gaming.com>",
   "homepage": "https://github.com/jackteng9725/lerna-repo#readme",
@@ -11,7 +11,7 @@
     "test": "__tests__"
   },
   "files": [
-    "dist" 
+    "dist"
   ],
   "publishConfig": {
     "registry": "https://www.npmjs.com/org/lerna-repo"
@@ -27,7 +27,7 @@
     "url": "https://github.com/jackteng9725/lerna-repo/issues"
   },
   "dependencies": {
-    "@mo-demo/cli-shared-utils": "^0.0.3",
+    "@mo-demo/cli-shared-utils": "^0.0.4",
     "chalk": "^4.0.0"
   },
   "gitHead": "ea867a4f3287a817d7210dfa9e926f7c0edb13b3"
