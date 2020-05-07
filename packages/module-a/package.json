@@ -1,0 +1,29 @@
+{
+  "name": "module-a",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "jack.t <jack.t@tc-gaming.com>",
+  "homepage": "https://github.com/jackteng9725/lerna-repo#readme",
+  "license": "ISC",
+  "main": "lib/module-a.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://npm.wlft-team.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackteng9725/lerna-repo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/jackteng9725/lerna-repo/issues"
+  }
+}
