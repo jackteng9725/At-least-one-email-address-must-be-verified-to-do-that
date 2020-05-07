@@ -1,0 +1,13 @@
+package-lock.json
+dist/
+*.iml
+*.log
+*.tmp
+*.temp
+*.lock
+*.project
+*.classpath
+*.sass-cache
+*.sublime-project
+*.sublime-workspace
+node_modules/
