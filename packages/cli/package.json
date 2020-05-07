@@ -29,5 +29,6 @@
   "dependencies": {
     "@mo-demo/cli-shared-utils": "^0.0.2",
     "chalk": "^4.0.0"
-  }
+  },
+  "gitHead": "db9f08234af140f3813892fbd77de2eb28dae25c"
 }
