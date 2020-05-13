@@ -1,6 +1,6 @@
 {
   "name": "@mo-demo/cli",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "> TODO: description",
   "author": "jack.t <jack.t@tc-gaming.com>",
   "homepage": "https://github.com/jackteng9725/lerna-repo#readme",
@@ -27,7 +27,7 @@
     "url": "https://github.com/jackteng9725/lerna-repo/issues"
   },
   "dependencies": {
-    "@mo-demo/cli-shared-utils": "^0.0.5",
+    "@mo-demo/cli-shared-utils": "^0.0.6",
     "chalk": "^4.0.0"
   },
   "gitHead": "67227afc87e0fe54470c67217f0f7df1fd90cfce"
